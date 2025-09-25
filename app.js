@@ -193,26 +193,26 @@
 
 // Question:12:-
 
-function count(string,letter){
-    var str = string.toLowerCase();
-    var ltr = letter.toLowerCase();
-    var count = 0;
+// function count(string,letter){
+//     var str = string.toLowerCase();
+//     var ltr = letter.toLowerCase();
+//     var count = 0;
 
-    for(var i = 0;i < str.length;i++){
-        if(str[i] === ltr){
-            count++;
+//     for(var i = 0;i < str.length;i++){
+//         if(str[i] === ltr){
+//             count++;
             
-        }
+//         }
         
-    }
-    return count;
+//     }
+//     return count;
 
-}
+// }
 
-var userINput1 = prompt("Enter a sentance");
-var userINput2 = prompt("Enter a letter");
-var getValue = count(userINput1,userINput2);
-console.log(userINput2,"appear",getValue,"times");
+// var userINput1 = prompt("Enter a sentance");
+// var userINput2 = prompt("Enter a letter");
+// var getValue = count(userINput1,userINput2);
+// console.log(userINput2,"appear",getValue,"times");
 
 
 
