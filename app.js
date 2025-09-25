@@ -191,6 +191,8 @@
 // console.log(getValue);
 
 
+// Question:12:-
+
 
 
 
