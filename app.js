@@ -36,40 +36,65 @@
 
 // Question:04:-
 
-function calculator(num1,operator,num2){
-  var result;
-  if(operator == "+"){
-    result = num1+num2
-  }  
-  else if(operator == "-"){
-    result = num1-num2
+// function calculator(num1,operator,num2){
+//   var result;
+//   if(operator == "+"){
+//     result = num1+num2
+//   }  
+//   else if(operator == "-"){
+//     result = num1-num2
 
-  } 
-   else if(operator == "*"){
-    result = num1*num2
+//   } 
+//    else if(operator == "*"){
+//     result = num1*num2
 
 
-  } 
-   else if(operator == "/"){
-    if(num2 !== 0){
-        result = num1/num2
-    }
-    else{
-    result = "division is 0"
+//   } 
+//    else if(operator == "/"){
+//     if(num2 !== 0){
+//         result = num1/num2
+//     }
+//     else{
+//     result = "division is 0"
 
-    }
+//     }
 
-  } 
-  else{
-    console.log("operator is invalid");
-  }
-  return result;
+//   } 
+//   else{
+//     console.log("operator is invalid");
+//   }
+//   return result;
+// }
+
+// var getValue = calculator(+prompt("Enter number 01"),prompt("Enter operator (+,-,*  /)"),+prompt("Enter number 02"));
+
+// console.log(getValue);
+
+
+
+// Question:05:-
+
+// function square(num1){
+//     var result = num1*num1;
+//     return result;
+
+// }
+// var userINput = +prompt("Enter num to find its sqaure value")
+// var getValue = square(userINput);
+// console.log("Square of ",userINput," is ",getValue);
+
+
+// Question:06:-
+
+function friction(num){
+    var result = Math.round(num);
+    return result;
+
 }
 
-var getValue = calculator(+prompt("Enter number 01"),prompt("Enter operator (+,-,*/)"),+prompt("Enter number 02"));
+var userINput = +prompt("Enter friction value");
 
-console.log(getValue);
-
-
+var getValue = friction(userINput);
+console.log(,getValue);
 
 
