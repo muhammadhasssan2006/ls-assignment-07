@@ -286,7 +286,72 @@
 // console.log(getValue);
 
 
+// Question:02:-
 
+
+// function year(years){
+//     if((years % 4 === 0 && years % 100 !== 0) || (years % 4  ===0)){
+
+//         console.log("its a leap year");
+//     }
+//         else{
+//     console.log("its not a leap year");
+    
+// }
+   
+// }
+
+// var getValue = year(+prompt("Enter Year"));
+
+
+// Question:03:-
+
+
+// function area(a,b,c){
+//     var s = (a+b+c)/2;
+//     var area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+//     return area;
+
+// }
+
+// var getValue = area(+prompt("Enter value of a"),+prompt("Enter value of b"),+prompt("Enter value of c"));
+// console.log("length of sides of triangle is: ",getValue);
+
+
+// Question:04:-
+
+
+// average function-------
+// function average(sub1,sub2,sub3){
+//     var avg = (sub1+sub2+sub3)/3;
+//     return avg;
+
+
+// }
+
+// percentage function ----------
+// function percentage(sub1,sub2,sub3){
+//     var per = (sub1+sub2+sub3)*100/300;
+//     return per;
+
+
+// }
+
+// function main(){
+
+//     var sub1 = +prompt("Enter number of sunject 1")
+//     var sub2 = +prompt("Enter number of sunject 2")
+//     var sub3 = +prompt("Enter number of sunject 3")
+
+//     var aVg =  average(sub1,sub2,sub3);
+//     var pEr =  percentage(sub1,sub2,sub3);
+
+//     console.log("Average value: ",aVg.toFixed(3));
+//     console.log("Percentage value: ",pEr.toFixed(3),"%");
+    
+// }
+
+// main();
 
 
 
