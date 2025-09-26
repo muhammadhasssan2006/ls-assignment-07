@@ -264,6 +264,29 @@
 // console.log("calcCircumference of circle is: ",getValue.toFixed(2));
 
 
+// ------------------------------------------Chapter 38-42--------------------------------
+
+
+// Question:01:-
+
+
+// function power(a,b){
+//     var result = 1;
+
+//     for(var i = 0; i < b; i++){
+//         result *= a
+
+//     }
+
+//     return result;
+
+// }
+
+// var getValue = power(+prompt("Enter value of a"),+prompt("Enter value of a"));
+// console.log(getValue);
+
+
+
 
 
 
