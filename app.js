@@ -193,6 +193,31 @@
 
 // Question:12:-
 
+
+// function str(sentance){
+//     var words = sentance.replace(/[^\w\s]/g,"").split(" ");
+//     var longestWord = "";
+
+//     for(var i = 0; i < words.length; i++){
+//         if(words[i].length > longestWord){
+//             longestWord = words[i];
+
+//         }
+
+//     }
+
+//     return longestWord;
+
+// }
+
+// var userINput = prompt("Enter a sentance")
+// var getValue = str(userINput);
+// console.log("longest word is: ",getValue);
+
+
+
+// Question:13:-
+
 // function count(string,letter){
 //     var str = string.toLowerCase();
 //     var ltr = letter.toLowerCase();
@@ -214,6 +239,29 @@
 // var getValue = count(userINput1,userINput2);
 // console.log(userINput2,"appear",getValue,"times");
 
+
+// Question:14:-
+
+// function calcCircumference(radius){
+//     var circumference = 2 * Math.PI * radius;
+
+//     return circumference ;
+
+// }
+
+
+// var userINput = +prompt("Enter radius of circle");
+// var getValue = calcCircumference(userINput);
+// console.log("calcCircumference of circle is: ",getValue.toFixed(2));
+
+// function calcCircumference(radius){
+//     var area = Math.PI * radius *radius;
+//     return area;
+// }
+
+// var userINput = +prompt("Enter radius of circle");
+// var getValue = calcCircumference(userINput);
+// console.log("calcCircumference of circle is: ",getValue.toFixed(2));
 
 
 
